@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/joaoaltevir/fornecimento#readme",
   "dependencies": {
+    "axios": "^1.7.7",
     "expres": "^0.0.5",
     "express": "^4.19.2"
   },
