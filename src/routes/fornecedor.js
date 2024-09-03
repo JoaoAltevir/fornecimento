@@ -1,6 +1,9 @@
 const express = require("express");
 const router = express.Router();
 const fornecedorController = require("../controllers/fornecedor.js");
+const upperCase = require("../middleware/caixaAlta.js");
+
+app.use(upperCase);
 
 router.post("/", (req,res)=> {
     const dados = req.body;
